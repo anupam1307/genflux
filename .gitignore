@@ -1,0 +1,23 @@
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.pyc
+
+# Ignore specific folders
+./google-cloud-sdk/
+./__pycache__/
+./google-cloud-cli-linux-x86_64.tar.gz
+./outputs/
+
+./flux_dev/
+
+# Ignore specific files
+./google-cloud-sdk.tar.gz
+./google-cloud-sdk.zip
+config.py
